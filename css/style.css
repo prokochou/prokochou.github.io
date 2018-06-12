@@ -234,7 +234,7 @@
 }
 
 .gallery .reel .item.loading {
-  opacity: 0;
+  opacity: 0.8;
 }
 
 /* Image in gallery
