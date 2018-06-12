@@ -454,3 +454,43 @@
 .navbar-inverse .navbar-brand {
     color: #fff;
 }
+
+/**
+ * Toggle navigation for mobile
+ */
+.navbar-custom .navbar-toggle {
+  border-color: #ddd;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: #ddd;
+}
+.navbar-custom .navbar-toggle .icon-bar {
+  background-color: #888;
+}
+.navbar-custom .navbar-collapse,
+/*.navbar-custom .navbar-form*/ {
+  border-color: #e7e7e7;
+}
+
+/**
+ * text-color and background when navigating
+ */
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a:active {
+  outline: 0;
+  background-color: transparent;
+}
+
+.navbar-custom .nav li.active {
+  outline: 0;
+}
+
+.navbar-custom .nav li.active a {
+  color: #fff;
+  background-color: rgba(0,0,0,0.6);
+}
+
+.navbar-custom .nav li.active a:hover {
+  color: #000;
+}
