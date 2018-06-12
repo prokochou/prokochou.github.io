@@ -14,7 +14,7 @@
     padding-top: 40vh;
     padding-bottom: 5vh;
     text-align: center;
-    background: url(../images/overlay.png), url(../images/home_background.svg);
+    background: url(../images/overlay.png), url(../images/home_background.jpg);
     background-size: 500px 500px, cover;
     background-attachment: fixed, fixed;
     background-position: top left, center;
@@ -88,7 +88,7 @@
     background-size: contain;
     margin: 0;
     padding: 0;
-    background-image: url(../images/marathon3.svg);
+    background-image: url(../images/marathon3.jpg);
 }
 
 .about-section .hi{
