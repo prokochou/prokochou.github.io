@@ -14,7 +14,7 @@
     padding-top: 40vh;
     padding-bottom: 5vh;
     text-align: center;
-    background: url(../images/overlay.png), url(../images/home_background.jpg);
+    background: url(../images/overlay.svg), url(../images/home_background.svg);
     background-size: 500px 500px, cover;
     background-attachment: fixed, fixed;
     background-position: top left, center;
@@ -75,7 +75,7 @@
     padding-top: 150px;
     padding-bottom: 100px;
     text-align: center;
-    background: url(../images/grey.jpg);
+    background: url(../images/grey.svg);
     background-attachment: fixed;
     background-position: top left;
     background-repeat: repeat;
@@ -111,7 +111,7 @@
 	padding-top: 30px;
 	padding-bottom: 200px;
 	text-aligh:center;
-	background: url(../images/background-design-marble.jpg);
+	background: url(../images/background-design-marble.svg);
 	background-attachment:fixed;
 	background-position: top left;
 	background-repeat: repeat;
@@ -142,7 +142,7 @@
 	padding-top: 30px;
 	padding-bottom: 200px;
 	text-aligh:center;
-	background: url(../images/overlay.png), url(../images/background-talks.jpg);
+	background: url(../images/overlay.svg), url(../images/background-talks.svg);
 	background-attachment:fixed;
 	background-position: top left;
 	background-repeat: repeat;
