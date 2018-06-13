@@ -75,19 +75,20 @@
     padding-top: 150px;
     padding-bottom: 100px;
     text-align: center;
-    background: url(../images/grey.jpg);
+/*    background: url(../images/grey.jpg);*/
+/*    background-color: #cccccc08;*/
     background-attachment: fixed;
     background-position: top left;
     background-repeat: repeat;
 }
 
 .about-section .myPhoto {
-    height: 80vh;
+    height: 45vh;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    margin: 0;
-    padding: 0;
+    margin: 20px;
+    padding: 0px;
     background-image: url(../images/myPhoto.gif);
 }
 
@@ -97,7 +98,7 @@
 
 
 .about-section .container .contact-bar {
-    margin-top: 15vh;
+    margin-top: 4vh;
     color: #333;
 }
 
