@@ -14,7 +14,7 @@
     padding-top: 40vh;
     padding-bottom: 5vh;
     text-align: center;
-    background: url(../images/overlay.png), url(../images/home_background.jpg);
+    background: url(../images/overlay.png), url(../images/home-background.jpg);
     background-size: 500px 500px, cover;
     background-attachment: fixed, fixed;
     background-position: top left, center;
