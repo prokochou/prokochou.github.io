@@ -73,7 +73,7 @@
     min-height: 100%;
     height: auto;
     padding-top: 150px;
-    padding-bottom: 100px;
+    padding-bottom: 85px;
     text-align: center;
 /*    background: url(../images/grey.jpg);*/
 /*    background-color: #cccccc08;*/
@@ -83,15 +83,17 @@
 }
 
 .about-section .myPhoto {
-    height: 45vh;
+    height: 40vh;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
     margin: 20px;
     padding: 0px;
-    background-image: url(../images/myPhoto.gif);
 }
 
+.about-section .myPhoto .about-photo{
+  width:500px;
+}
 .about-section .hi{
 	text-align:left;
 }
