@@ -5,7 +5,7 @@
 (function($) {
   var settings = {
     gallery: {
-      speed: 1,
+      speed: 0.5,
       fadeIn: true,
       fadeDelay: 250
     },
