@@ -8,6 +8,7 @@
   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   	<link rel="stylesheet" type="text/css" href="css/style.css">
   	<script type="text/javascript" src="js/index.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 	<!-- Font-Awesome icon
 	================================================== -->
@@ -50,15 +51,6 @@
 		        <li class="page-scroll"><a href="#works">Works</a></li>
 		        <li class="page-scroll"><a href="#talks">TALKS</a></li>
 		        <li class="page-scroll"><a target="_blank" href="https://www.linkedin.com/in/proko-chou-5803ab26/">LinkedIn</a></li>
-<!-- 	        <li class="dropdown">
-	        	<a class="dropdown-toggle" data-toggle="dropdown" href="#">Publications
-	        	<span class="caret"></span></a>
-				    <ul class="dropdown-menu">
-				        <li><a href="#">ARTICLES</a></li>
-				        <li><a href="#">TALKS</a></li>
-				        <li><a href="#">REPORTS</a></li>
-				    </ul>
-	      </li> -->
 	    	</ul>
 	  </div>
 	</nav>
@@ -140,12 +132,13 @@
 			        </div><!-- item Feedback-->
 
 			        <div class="item">
-			          <a target="_blank" data-toggle="modal" href="#presentation-mining" class="image featured"><img src="images/works/data_mining.png" alt="data_mining" /></a>
+			          <a target="_blank" data-toggle="modal" data-target="#presentation-mining" class="image featured"><img src="images/works/data_mining.png" alt="data_mining" /></a>
 			          <h2>Mining Patterns from Lyrics of Chinese Popular Music</h2>
 			          <p class="works_description">To understand the pattern of lyrics by automatic program analysis from more than 100,000 Chinese songs' lyrics.</p>
 			  
 			          <p>July 30th, 2016</p>
 			          <a target="_blank" data-toggle="modal" data-target="#presentation-mining" class="btn btn-info" role="button">Read More</a>
+
 			        </div><!-- item Mining-->
 
 			        <div class="item">
@@ -167,8 +160,8 @@
 
 
 			        <div class="item">
-			            <a target="_blank" data-toggle="modal" href="#presentation-quality-cat"
-			            class="image featured"><img src="images/works/cat.svg" alt="dashboard" /></a>
+			            <a target="_blank" data-toggle="modal" data-target="#presentation-quality-cat"
+			            class="image featured"><img src="images/works/cat.svg" alt="quality-cat" /></a>
 			            <h2>Quality Cat</h2>
 						<p class="works_description">	
 							It is an open source project for Test Management. 
@@ -182,38 +175,37 @@
 			</div><!-- gallery -->
 
 			<!-- Content of this gallery : bootstrap modal -->
-
 			<!-- Presentation: Mining -->
 			<div class="modal fade" id="presentation-mining" role="dialog">
-			  <div class="modal-dialog modal-dialog-centered">
+			  <div class="modal-dialog modal-dialog-centered" role="document">
 			    <div class="modal-content">
 			      <div class="modal-header">
-			        <button type="button" class="close" data-dismiss="modal">&times;</button>
+			        <button type="button" class="close" data-dismiss="modal">Close</button>
 			        <h4 class="modal-title">Data Mining: Mining Patterns from Lyrics of Chinese Popular Music</h4>
 			      </div>
 			      <div class="modal-body">
-			        <iframe width="560" height="315" src="https://www.youtube.com/embed/kIdkfhQGMqg" frameborder="0" allowfullscreen></iframe>
+			        <iframe class="mining-video" src="https://www.youtube.com/embed/kIdkfhQGMqg" frameborder="0" allowfullscreen></iframe>
 			        <br><br>
-			        <iframe width="560" height="315" src="https://www.youtube.com/embed/9yOmObYwwTs" frameborder="0" allowfullscreen></iframe>
+			        <iframe class="mining-video" src="https://www.youtube.com/embed/9yOmObYwwTs" frameborder="0" allowfullscreen></iframe>
 			      </div>
 
 			      <div class="modal-footer">
 			        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 			      </div>
-			    </div>
+				</div>
 			  </div>
 			</div><!-- Presentation: Mining -->		
 
 			<!-- Presentation: Quality Cat -->
 			<div class="modal fade" id="presentation-quality-cat" role="dialog">
-			  <div class="modal-dialog modal-dialog-centered">
+			  <div class="modal-dialog modal-dialog-centered" role="document">
 			    <div class="modal-content">
 			      <div class="modal-header">
-			        <button type="button" class="close" data-dismiss="modal">&times;</button>
+			        <!-- <button type="button" class="close" data-dismiss="modal">Close</button> -->
 			        <h4 class="modal-title">Under Developing</h4>
 			      </div>
 			      <div class="modal-body">
-			        <iframe width="320" height="320" class="image featured" img src="images/works/cat-small.svg" frameborder="0"></iframe>
+			        <iframe class="cat-logo" img src="images/works/cat-small.svg" frameborder="0"></iframe>
 			        <br><br>
 			      </div>
 
@@ -222,7 +214,7 @@
 			      </div>
 			    </div>
 			  </div>
-			</div><!-- Presentation: Quality Cat -->		
+			</div><!-- Presentation: Quality Cat -->	
 
 		</div><!-- container -->
 	</section>

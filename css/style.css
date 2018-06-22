@@ -139,6 +139,16 @@
     text-align: center;
 }
 
+.works-section .mining-video{
+  width: 400px;
+  height: 315px;
+}
+
+.works-section .cat-logo{
+  width: 300px;
+  height: 300px;
+}
+
 .talks-section{
 	min-height: 100%;
 	height:auto;
@@ -389,7 +399,28 @@
     border-bottom: 1px solid rgba(255,255,255,.3);
     background: #333;
   }
+
+
 }
+
+@media (max-width: 375px){
+  .works-section .mining-video{
+    width: 200px;
+    height: 175px;
+  }
+  .modal-content {
+    width:325px;
+  }
+
+  .works-section .modal-body{
+    width: 330px;
+    height: 350px;
+  }
+  .works-section .cat-logo{
+    margin: 0px 0px 0px -20px;
+  }
+}
+
 
 
 /**
