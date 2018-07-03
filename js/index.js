@@ -18,7 +18,6 @@ $(function(){
 			$('.about-photo').css('width','250px');
 			$('.about-photo').attr('src', imgArray[thisID]);
 		}else{
-			console.log(width);
 			if (width>375){
 				$('.about-photo').css('width','500px');
 			}else{
