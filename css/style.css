@@ -1,6 +1,6 @@
 @media (min-width: 500px)
 .intro-section {
-    background: url(../images/overlay_1.png), url(../images/home_background.jpg);
+    background: url(../images/overlay.png), url(../images/home_background.jpg);
     background-size: 256px 256px, cover;
     background-attachment: fixed, fixed;
     background-position: top left, center;
@@ -14,7 +14,7 @@
     padding-top: 40vh;
     padding-bottom: 5vh;
     text-align: center;
-    background: url(../images/overlay_1.png), url(../images/home-background.jpg);
+    background: url(../images/overlay.png), url(../images/home-background.jpg);
     background-size: 500px 500px, cover;
     background-attachment: fixed, fixed;
     background-position: top left, center;
@@ -174,7 +174,7 @@
 	padding-top: 30px;
 	padding-bottom: 200px;
 	text-aligh:center;
-	background: url(../images/overlay_1.png), url(../images/background-talks.jpg);
+	background: url(../images/overlay.png), url(../images/background-talks.jpg);
 	background-attachment:fixed;
 	background-position: top left;
 	background-repeat: repeat;
